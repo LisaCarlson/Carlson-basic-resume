@@ -3,13 +3,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1, {
+/*h1, {
   text-align: center;
 
-}
+}*/
 
 p, li {
 	font-size: 1.5em;
+}
+h2 {
+	text-align: left;
 }
 
 #heading {
@@ -26,6 +29,7 @@ p, li {
 	font-size: 2em;
   font-style: italic;
   text-align: center;
+  color: #E8BAD9;
 }
 
 .container {
@@ -34,12 +38,17 @@ p, li {
   background-color: black;
 }
 
+.col-md-6 {
+	padding-bottom: 20px;
+}
 
 
 img {
+
+
 	height: 213px; 
 	width: 195px;
-	padding: 10px;
-	margin-left: 250px;
+	margin-left: 60px;
+	
 }
 
